@@ -9,10 +9,16 @@ public class Main {
 		SearchingFile s=new SearchingFile();
 		DisplayFile d=new DisplayFile();
 		DeletFile de=new DeletFile();
-		System.out.println("Welcome To the Locked.me Application");
+		System.out.println("*******************************************");
+		System.out.println();
+		System.out.println("Welcome To the Virtual Key for your Repository Application");
+		System.out.println();
+		System.out.println("********************************************");
+		System.out.println();
 		
 		c.CreatingFile1();
-		System.out.println("What is the action u want to perform");	
+		System.out.println("What is the action u want to perform");
+		System.out.println();
 		while(true) {
 			try {
 		System.out.println("MENU\n1.Display All the Files\n2.Creat File\n3.Search File\n4. Delet Files\n5.Exit Apllication");
